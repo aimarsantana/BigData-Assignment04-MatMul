@@ -137,4 +137,9 @@ compression (defaults), UI disabled, `spark.rpc.message.maxSize` 512 MB, tasks =
 * **Correctness:** `tests/validate.py` and a comparison of every measured run with the reference product
   (bit-exact for rowblock, |dC| ≤ 1e-9(1 + |C|) for blockshuffle and for checksums).
 
+## AI-use disclosure
+
+Generative AI (Claude, Anthropic) was used as described in the "AI-use disclosure" section of the report. All
+measurements in `results/` were produced by running the code in this folder.
+
 Repository: https://github.com/aimarsantana/BigData-Assignment04-MatMul
