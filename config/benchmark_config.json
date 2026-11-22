@@ -1,0 +1,60 @@
+{
+  "description": "Assignment 4 benchmark configuration (read by generate_inputs.py and run_benchmarks.py). A layout 'ExC' is E worker containers (= E executor JVMs) with C cores each; the total number of cores is E*C. All containers run on one physical machine.",
+  "numeric_type": "float64 (IEEE-754 binary64)",
+  "kernels": {
+    "blocked": "cache-blocked ikj kernel, tiles of 64 x 256, k unrolled by 4 (blocking idea of Assignment 2); main kernel",
+    "unroll4": "ikj kernel with k unrolled by 4 (Assignments 2 and 3), used in experiment D7 to show the memory wall",
+    "ijk": "basic triple loop of Assignment 1, local baseline only"
+  },
+  "inputs": { "sizes": [512, 1024, 1290, 1536, 1626, 2048, 3072] },
+  "spark": {
+    "image": "apache/spark:3.5.6-java17",
+    "executor_memory": "640m",
+    "driver_memory": "1g",
+    "worker_daemon_memory": "64m",
+    "master_daemon_memory": "128m",
+    "extra_conf": {
+      "spark.ui.enabled": "false",
+      "spark.rpc.message.maxSize": "512",
+      "spark.network.timeout": "300s"
+    }
+  },
+  "budget": { "max_seconds_per_sample": 120 },
+  "repetitions": { "n<=1024": 7, "n>1024": 5 },
+  "warmup_runs": 2,
+  "partitions_per_core": 4,
+  "experiments": [
+    { "id": "D1_strong_rowblock", "kind": "spark", "method": "rowblock", "kernel": "blocked",
+      "layouts": ["1x1", "2x1", "4x1", "4x2"], "sizes": [512, 1024, 2048, 3072],
+      "purpose": "strong scaling of the broadcast / row-band algorithm (main study)" },
+    { "id": "D2_strong_blockshuffle", "kind": "spark", "method": "blockshuffle", "kernel": "blocked", "grid": 4,
+      "layouts": ["1x1", "2x1", "4x1", "4x2"], "sizes": [512, 1024, 2048],
+      "purpose": "strong scaling of the 2-D block algorithm with two shuffles" },
+    { "id": "D3_layout", "kind": "spark", "method": "rowblock", "kernel": "blocked",
+      "layouts": ["1x4", "2x2", "4x1", "1x8", "2x4", "4x2"], "sizes": [1024, 2048, 3072],
+      "purpose": "same total cores (4 or 8), different split into containers (processes) and cores per container" },
+    { "id": "D4_result_stays", "kind": "spark", "method": "rowblock-sum", "kernel": "blocked",
+      "layouts": ["1x1", "2x1", "4x1", "4x2"], "sizes": [1024, 2048, 3072],
+      "purpose": "same as D1 but C is not returned to the driver (cost of result collection)" },
+    { "id": "D5_partitions", "kind": "spark", "method": "rowblock", "kernel": "blocked",
+      "layouts": ["4x2"], "sizes": [2048], "partsList": [8, 16, 32, 64, 128, 256],
+      "purpose": "number of tasks (granularity) at 8 cores" },
+    { "id": "D6_weak", "kind": "spark", "method": "rowblock", "kernel": "blocked",
+      "layouts": ["1x1", "2x1", "4x1", "4x2"], "sizes_by_cores": { "1": [1024], "2": [1290], "4": [1626], "8": [2048] },
+      "purpose": "weak scaling: n^3 (the work) doubles with the cores: n = 1024, 1290, 1626, 2048" },
+    { "id": "D7_unroll4_kernel", "kind": "spark", "method": "rowblock", "kernel": "unroll4",
+      "layouts": ["1x1", "2x1", "4x1", "4x2"], "sizes": [1024, 2048],
+      "purpose": "the kernel of Assignments 2 and 3: memory-bound, scaling limited by the shared DRAM" }
+  ],
+  "local": [
+    { "id": "L1_local", "driver_heap": "1g",
+      "runs": [
+        { "method": "ijk", "kernel": "ijk", "threads": [1], "sizes": [512, 1024, 1536] },
+        { "method": "seq", "kernel": "blocked", "threads": [1], "sizes": [512, 1024, 1290, 1626, 2048, 3072] },
+        { "method": "seq", "kernel": "unroll4", "threads": [1], "sizes": [512, 1024, 2048, 3072] },
+        { "method": "threads", "kernel": "blocked", "threads": [1, 2, 4, 8, 16], "sizes": [512, 1024, 2048, 3072] },
+        { "method": "threads", "kernel": "unroll4", "threads": [1, 2, 4, 8], "sizes": [1024, 2048] }
+      ] }
+  ],
+  "anchor": { "method": "seq", "kernel": "blocked", "n": 1024, "reps": 5 }
+}

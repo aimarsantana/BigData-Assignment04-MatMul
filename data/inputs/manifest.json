@@ -1,0 +1,50 @@
+{
+  "numpy_version": "2.5.5",
+  "generator": "numpy.random.default_rng (PCG64)",
+  "seeds": {
+    "A": 20261012,
+    "B": 20261013
+  },
+  "distribution": "uniform [-1, 1)",
+  "dtype": "float64 little-endian, row-major",
+  "files": {
+    "A_n512.bin": "b469ab571a4c6fb9e01e650f3d5b32b8a5572573346c86e74485ab14e95d7476",
+    "B_n512.bin": "c0f2320adfe27573573de7d04ef2319f01f5240a089c5bb54ccfbec061f413e0",
+    "A_n1024.bin": "ab596e66b785dee1bcbbd3d284674b776eb72a731a884e988fdf017d85bb8b31",
+    "B_n1024.bin": "f74300e193e074ff9b4b1546cfc0324f904f6ad81f8880b5c4c8c0f9c31522ab",
+    "A_n1290.bin": "64e5072664bc9cbb367af8f463646bf8b5e36e875c5c89d7334c4012e70e5993",
+    "B_n1290.bin": "49e3d1fbe77f9820cc2a14710e4dfc6027db938196ce5b72a177816e03d943eb",
+    "A_n1536.bin": "51ed61303daf2500d1df2fac4fa1cb52a17ba490884f71b92e53cedc248a7a57",
+    "B_n1536.bin": "a9e0b0ddad479c2ec1b3d198f882a53b18bee1ada2e3c1398872a4ef9492c49b",
+    "A_n1626.bin": "2bc60f1da66e331cea2903ed218a165f00685cbcea5e2c1404107fd4b69eb8c3",
+    "B_n1626.bin": "495749c1ce839f220120c3277a163a7a283ef751fe71117741419c230115fc8a",
+    "A_n2048.bin": "73561fba36436fc50511c5853dc7823cf9b0944f4d439e1b724b48ed8628d21d",
+    "B_n2048.bin": "2c33a6eb5b9789ff26d4baad6f233286f516cd5799226f2eeb790e2dd77d71ee",
+    "A_n3072.bin": "dbb661654784f22dc56315b3407c002bfdf6edff3fb92b09eaf62ad47a991533",
+    "B_n3072.bin": "f68f4bd76980ccbd13a3382c08369bda39faa04e559b7e365e4920c1e50c4298"
+  },
+  "checked_against": {
+    "../../assigment-3/Assignment03_AlejandroSantana_Materials/data/inputs/manifest.json": {
+      "A_n512.bin": true,
+      "B_n512.bin": true,
+      "A_n1024.bin": true,
+      "B_n1024.bin": true,
+      "A_n1536.bin": true,
+      "B_n1536.bin": true,
+      "A_n2048.bin": true,
+      "B_n2048.bin": true,
+      "A_n3072.bin": true,
+      "B_n3072.bin": true
+    },
+    "../../Assignment01_AlejandroSantana_Materials/data/inputs/manifest.json": {
+      "A_n512.bin": true,
+      "B_n512.bin": true,
+      "A_n1024.bin": true,
+      "B_n1024.bin": true,
+      "A_n1536.bin": true,
+      "B_n1536.bin": true,
+      "A_n2048.bin": true,
+      "B_n2048.bin": true
+    }
+  }
+}
