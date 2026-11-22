@@ -1,0 +1,4 @@
+experiment,method,kernel,workers,cores_per_worker,partitions,grid,threads,n,status,warmup,reps,load_s,ref_s,note
+D2_strong_blockshuffle,blockshuffle,blocked,4,2,32,4,0,512,OK,2,7,0.073898744,0.090263824,
+D2_strong_blockshuffle,blockshuffle,blocked,4,2,32,4,0,1024,OK,2,7,0.210451654,0.450362004,
+D2_strong_blockshuffle,blockshuffle,blocked,4,2,32,4,0,2048,OK,2,5,0.771083217,3.924555307,

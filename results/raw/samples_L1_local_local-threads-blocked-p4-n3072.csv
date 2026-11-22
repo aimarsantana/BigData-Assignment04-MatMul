@@ -1,0 +1,8 @@
+experiment,method,kernel,workers,cores_per_worker,partitions,grid,threads,n,phase,index,t_total_ns,driver_vmhwm_kib,check_ok,max_abs_diff,bit_equal,checksum_sum,checksum_abs,t_partition_ns,t_broadcast_ns,t_job_ns,t_assemble_ns,sum_kernel_ns,sum_fetch_ns,tasks,executor_run_ms,executor_cpu_ns,deserialize_ms,result_ser_ms,result_size_bytes,gc_ms,shuffle_remote_bytes,shuffle_local_bytes,shuffle_write_bytes,shuffle_fetch_wait_ms,spill_mem_bytes,spill_disk_bytes,peak_exec_vmhwm_kib,driver_rx_bytes,driver_tx_bytes
+L1_local,threads,blocked,0,1,0,0,4,3072,warmup,0,3147766158,389928,true,0.0,true,-19929.328511758493,1.3919596792070478E8,,,,,,,,,,,,,,,,,,,,,,
+L1_local,threads,blocked,0,1,0,0,4,3072,warmup,1,3560980026,390128,true,0.0,true,-19929.328511758493,1.3919596792070478E8,,,,,,,,,,,,,,,,,,,,,,
+L1_local,threads,blocked,0,1,0,0,4,3072,measured,0,3488329026,390176,true,0.0,true,-19929.328511758493,1.3919596792070478E8,,,,,,,,,,,,,,,,,,,,,,
+L1_local,threads,blocked,0,1,0,0,4,3072,measured,1,3694784496,390216,true,0.0,true,-19929.328511758493,1.3919596792070478E8,,,,,,,,,,,,,,,,,,,,,,
+L1_local,threads,blocked,0,1,0,0,4,3072,measured,2,3508710965,390268,true,0.0,true,-19929.328511758493,1.3919596792070478E8,,,,,,,,,,,,,,,,,,,,,,
+L1_local,threads,blocked,0,1,0,0,4,3072,measured,3,3571395557,390304,true,0.0,true,-19929.328511758493,1.3919596792070478E8,,,,,,,,,,,,,,,,,,,,,,
+L1_local,threads,blocked,0,1,0,0,4,3072,measured,4,3601386828,390352,true,0.0,true,-19929.328511758493,1.3919596792070478E8,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,17 @@
+experiment,workers,key,value
+D3_layout,2,spark_version,3.5.6
+D3_layout,2,java_version,17.0.15
+D3_layout,2,java_vm,OpenJDK 64-Bit Server VM
+D3_layout,2,os_arch,amd64
+D3_layout,2,driver_available_processors,16
+D3_layout,2,driver_max_heap_mib,1024
+D3_layout,2,master,spark://master:7077
+D3_layout,2,workers_requested,2
+D3_layout,2,cores_per_worker,2
+D3_layout,2,executors_registered,2
+D3_layout,2,executor_memory,640m
+D3_layout,2,executor_cores,2
+D3_layout,2,cores_max,4
+D3_layout,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D3_layout,2,broadcast_compress,true (default)
+D3_layout,2,shuffle_compress,true (default)

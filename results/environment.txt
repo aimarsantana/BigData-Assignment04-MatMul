@@ -1,0 +1,24 @@
+﻿date_utc: 2026-11-22T21:33:56Z
+machine: LENOVO 82YY (laptop, on AC power during the measurements)
+cpu_model: AMD Ryzen 7 7730U with Radeon Graphics
+physical_cores: 8
+logical_processors: 16
+cpu_max_clock_mhz (reported by Windows): 2000
+l2_cache_kb (Win32_Processor): 4096
+l3_cache_kb (Win32_Processor): 16384
+ram_total_gb: 13.84
+ram_modules: 8GB@3200MT/s, 8GB@3200MT/s
+os: Microsoft Windows 11 Home 10.0.26200 build 26200
+power_scheme: Equilibrado
+docker_server: 29.8.0
+docker_compose: 5.5.1
+docker_vm_cpus: 16; docker_vm_memory_bytes: 7182389248; docker_vm_os: Docker Desktop; kernel: 6.18.33.2-microsoft-standard-WSL2
+spark_image: apache/spark:3.5.6-java17 (apache/spark@sha256:702d82ecea50c6f8344d3df753ba26f05ffd9d1d052e180fed9c3d6c04f77730)
+jdk_in_image: openjdk version "17.0.15" 2025-04-15 | OpenJDK Runtime Environment Temurin-17.0.15+6 (build 17.0.15+6)
+spark_version: 3.5.6 (Scala 2.12); serializer: Java (default); broadcast and shuffle compression: LZ4 (default)
+build_jdk: openjdk version 21.0.12.1 2026-08-18 LTS
+maven: Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+python (uv): 3.14.5 numpy 2.5.5 pandas 3.1.1 matplotlib 3.11.2
+cpu_as_seen_in_container: model name	: AMD Ryzen 7 7730U with Radeon Graphics | 16 | Mem:            6849         657        4876          26        1315        6024
+worker_container: 1 executor JVM per container; executor heap 640m, 1 or 2 cores (--cores), master daemon 128m, worker daemon 64m, driver container heap 1g
+network: one Docker bridge network (docker compose), containers on the same machine

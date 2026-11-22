@@ -1,0 +1,2 @@
+experiment,method,kernel,workers,cores_per_worker,partitions,grid,threads,n,status,warmup,reps,load_s,ref_s,note
+L1_local,threads,blocked,0,1,0,0,2,3072,OK,2,5,0.894622691,12.118470637,

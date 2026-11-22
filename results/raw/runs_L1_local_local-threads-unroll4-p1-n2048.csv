@@ -1,0 +1,2 @@
+experiment,method,kernel,workers,cores_per_worker,partitions,grid,threads,n,status,warmup,reps,load_s,ref_s,note
+L1_local,threads,unroll4,0,1,0,0,1,2048,OK,2,5,0.398639492,4.083836234,

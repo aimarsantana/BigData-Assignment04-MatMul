@@ -1,0 +1,17 @@
+experiment,workers,key,value
+D5_partitions,4,spark_version,3.5.6
+D5_partitions,4,java_version,17.0.15
+D5_partitions,4,java_vm,OpenJDK 64-Bit Server VM
+D5_partitions,4,os_arch,amd64
+D5_partitions,4,driver_available_processors,16
+D5_partitions,4,driver_max_heap_mib,1024
+D5_partitions,4,master,spark://master:7077
+D5_partitions,4,workers_requested,4
+D5_partitions,4,cores_per_worker,2
+D5_partitions,4,executors_registered,4
+D5_partitions,4,executor_memory,640m
+D5_partitions,4,executor_cores,2
+D5_partitions,4,cores_max,8
+D5_partitions,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D5_partitions,4,broadcast_compress,true (default)
+D5_partitions,4,shuffle_compress,true (default)

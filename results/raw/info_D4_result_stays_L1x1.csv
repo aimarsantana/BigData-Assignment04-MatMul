@@ -1,0 +1,17 @@
+experiment,workers,key,value
+D4_result_stays,1,spark_version,3.5.6
+D4_result_stays,1,java_version,17.0.15
+D4_result_stays,1,java_vm,OpenJDK 64-Bit Server VM
+D4_result_stays,1,os_arch,amd64
+D4_result_stays,1,driver_available_processors,16
+D4_result_stays,1,driver_max_heap_mib,1024
+D4_result_stays,1,master,spark://master:7077
+D4_result_stays,1,workers_requested,1
+D4_result_stays,1,cores_per_worker,1
+D4_result_stays,1,executors_registered,1
+D4_result_stays,1,executor_memory,640m
+D4_result_stays,1,executor_cores,1
+D4_result_stays,1,cores_max,1
+D4_result_stays,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D4_result_stays,1,broadcast_compress,true (default)
+D4_result_stays,1,shuffle_compress,true (default)

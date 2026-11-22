@@ -1,0 +1,5 @@
+experiment,method,kernel,workers,cores_per_worker,partitions,grid,threads,n,status,warmup,reps,load_s,ref_s,note
+D1_strong_rowblock,rowblock,blocked,4,1,16,4,0,512,OK,2,7,0.038473214,0.073305444,
+D1_strong_rowblock,rowblock,blocked,4,1,16,4,0,1024,OK,2,7,0.15889836,0.461994981,
+D1_strong_rowblock,rowblock,blocked,4,1,16,4,0,2048,OK,2,5,0.44162308,3.374960516,
+D1_strong_rowblock,rowblock,blocked,4,1,16,4,0,3072,OK,2,5,1.064424155,11.095765725,

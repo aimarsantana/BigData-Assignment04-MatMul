@@ -1,0 +1,17 @@
+experiment,workers,key,value
+D7_unroll4_kernel,2,spark_version,3.5.6
+D7_unroll4_kernel,2,java_version,17.0.15
+D7_unroll4_kernel,2,java_vm,OpenJDK 64-Bit Server VM
+D7_unroll4_kernel,2,os_arch,amd64
+D7_unroll4_kernel,2,driver_available_processors,16
+D7_unroll4_kernel,2,driver_max_heap_mib,1024
+D7_unroll4_kernel,2,master,spark://master:7077
+D7_unroll4_kernel,2,workers_requested,2
+D7_unroll4_kernel,2,cores_per_worker,1
+D7_unroll4_kernel,2,executors_registered,2
+D7_unroll4_kernel,2,executor_memory,640m
+D7_unroll4_kernel,2,executor_cores,1
+D7_unroll4_kernel,2,cores_max,2
+D7_unroll4_kernel,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D7_unroll4_kernel,2,broadcast_compress,true (default)
+D7_unroll4_kernel,2,shuffle_compress,true (default)

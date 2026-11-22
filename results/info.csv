@@ -1,0 +1,433 @@
+experiment,workers,key,value
+D1_strong_rowblock,1,spark_version,3.5.6
+D1_strong_rowblock,1,java_version,17.0.15
+D1_strong_rowblock,1,java_vm,OpenJDK 64-Bit Server VM
+D1_strong_rowblock,1,os_arch,amd64
+D1_strong_rowblock,1,driver_available_processors,16
+D1_strong_rowblock,1,driver_max_heap_mib,1024
+D1_strong_rowblock,1,master,spark://master:7077
+D1_strong_rowblock,1,workers_requested,1
+D1_strong_rowblock,1,cores_per_worker,1
+D1_strong_rowblock,1,executors_registered,1
+D1_strong_rowblock,1,executor_memory,640m
+D1_strong_rowblock,1,executor_cores,1
+D1_strong_rowblock,1,cores_max,1
+D1_strong_rowblock,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D1_strong_rowblock,1,broadcast_compress,true (default)
+D1_strong_rowblock,1,shuffle_compress,true (default)
+D1_strong_rowblock,2,spark_version,3.5.6
+D1_strong_rowblock,2,java_version,17.0.15
+D1_strong_rowblock,2,java_vm,OpenJDK 64-Bit Server VM
+D1_strong_rowblock,2,os_arch,amd64
+D1_strong_rowblock,2,driver_available_processors,16
+D1_strong_rowblock,2,driver_max_heap_mib,1024
+D1_strong_rowblock,2,master,spark://master:7077
+D1_strong_rowblock,2,workers_requested,2
+D1_strong_rowblock,2,cores_per_worker,1
+D1_strong_rowblock,2,executors_registered,2
+D1_strong_rowblock,2,executor_memory,640m
+D1_strong_rowblock,2,executor_cores,1
+D1_strong_rowblock,2,cores_max,2
+D1_strong_rowblock,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D1_strong_rowblock,2,broadcast_compress,true (default)
+D1_strong_rowblock,2,shuffle_compress,true (default)
+D1_strong_rowblock,4,spark_version,3.5.6
+D1_strong_rowblock,4,java_version,17.0.15
+D1_strong_rowblock,4,java_vm,OpenJDK 64-Bit Server VM
+D1_strong_rowblock,4,os_arch,amd64
+D1_strong_rowblock,4,driver_available_processors,16
+D1_strong_rowblock,4,driver_max_heap_mib,1024
+D1_strong_rowblock,4,master,spark://master:7077
+D1_strong_rowblock,4,workers_requested,4
+D1_strong_rowblock,4,cores_per_worker,1
+D1_strong_rowblock,4,executors_registered,4
+D1_strong_rowblock,4,executor_memory,640m
+D1_strong_rowblock,4,executor_cores,1
+D1_strong_rowblock,4,cores_max,4
+D1_strong_rowblock,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D1_strong_rowblock,4,broadcast_compress,true (default)
+D1_strong_rowblock,4,shuffle_compress,true (default)
+D1_strong_rowblock,4,spark_version,3.5.6
+D1_strong_rowblock,4,java_version,17.0.15
+D1_strong_rowblock,4,java_vm,OpenJDK 64-Bit Server VM
+D1_strong_rowblock,4,os_arch,amd64
+D1_strong_rowblock,4,driver_available_processors,16
+D1_strong_rowblock,4,driver_max_heap_mib,1024
+D1_strong_rowblock,4,master,spark://master:7077
+D1_strong_rowblock,4,workers_requested,4
+D1_strong_rowblock,4,cores_per_worker,2
+D1_strong_rowblock,4,executors_registered,4
+D1_strong_rowblock,4,executor_memory,640m
+D1_strong_rowblock,4,executor_cores,2
+D1_strong_rowblock,4,cores_max,8
+D1_strong_rowblock,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D1_strong_rowblock,4,broadcast_compress,true (default)
+D1_strong_rowblock,4,shuffle_compress,true (default)
+D2_strong_blockshuffle,1,spark_version,3.5.6
+D2_strong_blockshuffle,1,java_version,17.0.15
+D2_strong_blockshuffle,1,java_vm,OpenJDK 64-Bit Server VM
+D2_strong_blockshuffle,1,os_arch,amd64
+D2_strong_blockshuffle,1,driver_available_processors,16
+D2_strong_blockshuffle,1,driver_max_heap_mib,1024
+D2_strong_blockshuffle,1,master,spark://master:7077
+D2_strong_blockshuffle,1,workers_requested,1
+D2_strong_blockshuffle,1,cores_per_worker,1
+D2_strong_blockshuffle,1,executors_registered,1
+D2_strong_blockshuffle,1,executor_memory,640m
+D2_strong_blockshuffle,1,executor_cores,1
+D2_strong_blockshuffle,1,cores_max,1
+D2_strong_blockshuffle,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D2_strong_blockshuffle,1,broadcast_compress,true (default)
+D2_strong_blockshuffle,1,shuffle_compress,true (default)
+D2_strong_blockshuffle,2,spark_version,3.5.6
+D2_strong_blockshuffle,2,java_version,17.0.15
+D2_strong_blockshuffle,2,java_vm,OpenJDK 64-Bit Server VM
+D2_strong_blockshuffle,2,os_arch,amd64
+D2_strong_blockshuffle,2,driver_available_processors,16
+D2_strong_blockshuffle,2,driver_max_heap_mib,1024
+D2_strong_blockshuffle,2,master,spark://master:7077
+D2_strong_blockshuffle,2,workers_requested,2
+D2_strong_blockshuffle,2,cores_per_worker,1
+D2_strong_blockshuffle,2,executors_registered,2
+D2_strong_blockshuffle,2,executor_memory,640m
+D2_strong_blockshuffle,2,executor_cores,1
+D2_strong_blockshuffle,2,cores_max,2
+D2_strong_blockshuffle,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D2_strong_blockshuffle,2,broadcast_compress,true (default)
+D2_strong_blockshuffle,2,shuffle_compress,true (default)
+D2_strong_blockshuffle,4,spark_version,3.5.6
+D2_strong_blockshuffle,4,java_version,17.0.15
+D2_strong_blockshuffle,4,java_vm,OpenJDK 64-Bit Server VM
+D2_strong_blockshuffle,4,os_arch,amd64
+D2_strong_blockshuffle,4,driver_available_processors,16
+D2_strong_blockshuffle,4,driver_max_heap_mib,1024
+D2_strong_blockshuffle,4,master,spark://master:7077
+D2_strong_blockshuffle,4,workers_requested,4
+D2_strong_blockshuffle,4,cores_per_worker,1
+D2_strong_blockshuffle,4,executors_registered,4
+D2_strong_blockshuffle,4,executor_memory,640m
+D2_strong_blockshuffle,4,executor_cores,1
+D2_strong_blockshuffle,4,cores_max,4
+D2_strong_blockshuffle,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D2_strong_blockshuffle,4,broadcast_compress,true (default)
+D2_strong_blockshuffle,4,shuffle_compress,true (default)
+D2_strong_blockshuffle,4,spark_version,3.5.6
+D2_strong_blockshuffle,4,java_version,17.0.15
+D2_strong_blockshuffle,4,java_vm,OpenJDK 64-Bit Server VM
+D2_strong_blockshuffle,4,os_arch,amd64
+D2_strong_blockshuffle,4,driver_available_processors,16
+D2_strong_blockshuffle,4,driver_max_heap_mib,1024
+D2_strong_blockshuffle,4,master,spark://master:7077
+D2_strong_blockshuffle,4,workers_requested,4
+D2_strong_blockshuffle,4,cores_per_worker,2
+D2_strong_blockshuffle,4,executors_registered,4
+D2_strong_blockshuffle,4,executor_memory,640m
+D2_strong_blockshuffle,4,executor_cores,2
+D2_strong_blockshuffle,4,cores_max,8
+D2_strong_blockshuffle,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D2_strong_blockshuffle,4,broadcast_compress,true (default)
+D2_strong_blockshuffle,4,shuffle_compress,true (default)
+D3_layout,1,spark_version,3.5.6
+D3_layout,1,java_version,17.0.15
+D3_layout,1,java_vm,OpenJDK 64-Bit Server VM
+D3_layout,1,os_arch,amd64
+D3_layout,1,driver_available_processors,16
+D3_layout,1,driver_max_heap_mib,1024
+D3_layout,1,master,spark://master:7077
+D3_layout,1,workers_requested,1
+D3_layout,1,cores_per_worker,4
+D3_layout,1,executors_registered,1
+D3_layout,1,executor_memory,640m
+D3_layout,1,executor_cores,4
+D3_layout,1,cores_max,4
+D3_layout,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D3_layout,1,broadcast_compress,true (default)
+D3_layout,1,shuffle_compress,true (default)
+D3_layout,1,spark_version,3.5.6
+D3_layout,1,java_version,17.0.15
+D3_layout,1,java_vm,OpenJDK 64-Bit Server VM
+D3_layout,1,os_arch,amd64
+D3_layout,1,driver_available_processors,16
+D3_layout,1,driver_max_heap_mib,1024
+D3_layout,1,master,spark://master:7077
+D3_layout,1,workers_requested,1
+D3_layout,1,cores_per_worker,8
+D3_layout,1,executors_registered,1
+D3_layout,1,executor_memory,640m
+D3_layout,1,executor_cores,8
+D3_layout,1,cores_max,8
+D3_layout,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D3_layout,1,broadcast_compress,true (default)
+D3_layout,1,shuffle_compress,true (default)
+D3_layout,2,spark_version,3.5.6
+D3_layout,2,java_version,17.0.15
+D3_layout,2,java_vm,OpenJDK 64-Bit Server VM
+D3_layout,2,os_arch,amd64
+D3_layout,2,driver_available_processors,16
+D3_layout,2,driver_max_heap_mib,1024
+D3_layout,2,master,spark://master:7077
+D3_layout,2,workers_requested,2
+D3_layout,2,cores_per_worker,2
+D3_layout,2,executors_registered,2
+D3_layout,2,executor_memory,640m
+D3_layout,2,executor_cores,2
+D3_layout,2,cores_max,4
+D3_layout,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D3_layout,2,broadcast_compress,true (default)
+D3_layout,2,shuffle_compress,true (default)
+D3_layout,2,spark_version,3.5.6
+D3_layout,2,java_version,17.0.15
+D3_layout,2,java_vm,OpenJDK 64-Bit Server VM
+D3_layout,2,os_arch,amd64
+D3_layout,2,driver_available_processors,16
+D3_layout,2,driver_max_heap_mib,1024
+D3_layout,2,master,spark://master:7077
+D3_layout,2,workers_requested,2
+D3_layout,2,cores_per_worker,4
+D3_layout,2,executors_registered,2
+D3_layout,2,executor_memory,640m
+D3_layout,2,executor_cores,4
+D3_layout,2,cores_max,8
+D3_layout,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D3_layout,2,broadcast_compress,true (default)
+D3_layout,2,shuffle_compress,true (default)
+D3_layout,4,spark_version,3.5.6
+D3_layout,4,java_version,17.0.15
+D3_layout,4,java_vm,OpenJDK 64-Bit Server VM
+D3_layout,4,os_arch,amd64
+D3_layout,4,driver_available_processors,16
+D3_layout,4,driver_max_heap_mib,1024
+D3_layout,4,master,spark://master:7077
+D3_layout,4,workers_requested,4
+D3_layout,4,cores_per_worker,1
+D3_layout,4,executors_registered,4
+D3_layout,4,executor_memory,640m
+D3_layout,4,executor_cores,1
+D3_layout,4,cores_max,4
+D3_layout,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D3_layout,4,broadcast_compress,true (default)
+D3_layout,4,shuffle_compress,true (default)
+D3_layout,4,spark_version,3.5.6
+D3_layout,4,java_version,17.0.15
+D3_layout,4,java_vm,OpenJDK 64-Bit Server VM
+D3_layout,4,os_arch,amd64
+D3_layout,4,driver_available_processors,16
+D3_layout,4,driver_max_heap_mib,1024
+D3_layout,4,master,spark://master:7077
+D3_layout,4,workers_requested,4
+D3_layout,4,cores_per_worker,2
+D3_layout,4,executors_registered,4
+D3_layout,4,executor_memory,640m
+D3_layout,4,executor_cores,2
+D3_layout,4,cores_max,8
+D3_layout,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D3_layout,4,broadcast_compress,true (default)
+D3_layout,4,shuffle_compress,true (default)
+D4_result_stays,1,spark_version,3.5.6
+D4_result_stays,1,java_version,17.0.15
+D4_result_stays,1,java_vm,OpenJDK 64-Bit Server VM
+D4_result_stays,1,os_arch,amd64
+D4_result_stays,1,driver_available_processors,16
+D4_result_stays,1,driver_max_heap_mib,1024
+D4_result_stays,1,master,spark://master:7077
+D4_result_stays,1,workers_requested,1
+D4_result_stays,1,cores_per_worker,1
+D4_result_stays,1,executors_registered,1
+D4_result_stays,1,executor_memory,640m
+D4_result_stays,1,executor_cores,1
+D4_result_stays,1,cores_max,1
+D4_result_stays,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D4_result_stays,1,broadcast_compress,true (default)
+D4_result_stays,1,shuffle_compress,true (default)
+D4_result_stays,2,spark_version,3.5.6
+D4_result_stays,2,java_version,17.0.15
+D4_result_stays,2,java_vm,OpenJDK 64-Bit Server VM
+D4_result_stays,2,os_arch,amd64
+D4_result_stays,2,driver_available_processors,16
+D4_result_stays,2,driver_max_heap_mib,1024
+D4_result_stays,2,master,spark://master:7077
+D4_result_stays,2,workers_requested,2
+D4_result_stays,2,cores_per_worker,1
+D4_result_stays,2,executors_registered,2
+D4_result_stays,2,executor_memory,640m
+D4_result_stays,2,executor_cores,1
+D4_result_stays,2,cores_max,2
+D4_result_stays,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D4_result_stays,2,broadcast_compress,true (default)
+D4_result_stays,2,shuffle_compress,true (default)
+D4_result_stays,4,spark_version,3.5.6
+D4_result_stays,4,java_version,17.0.15
+D4_result_stays,4,java_vm,OpenJDK 64-Bit Server VM
+D4_result_stays,4,os_arch,amd64
+D4_result_stays,4,driver_available_processors,16
+D4_result_stays,4,driver_max_heap_mib,1024
+D4_result_stays,4,master,spark://master:7077
+D4_result_stays,4,workers_requested,4
+D4_result_stays,4,cores_per_worker,1
+D4_result_stays,4,executors_registered,4
+D4_result_stays,4,executor_memory,640m
+D4_result_stays,4,executor_cores,1
+D4_result_stays,4,cores_max,4
+D4_result_stays,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D4_result_stays,4,broadcast_compress,true (default)
+D4_result_stays,4,shuffle_compress,true (default)
+D4_result_stays,4,spark_version,3.5.6
+D4_result_stays,4,java_version,17.0.15
+D4_result_stays,4,java_vm,OpenJDK 64-Bit Server VM
+D4_result_stays,4,os_arch,amd64
+D4_result_stays,4,driver_available_processors,16
+D4_result_stays,4,driver_max_heap_mib,1024
+D4_result_stays,4,master,spark://master:7077
+D4_result_stays,4,workers_requested,4
+D4_result_stays,4,cores_per_worker,2
+D4_result_stays,4,executors_registered,4
+D4_result_stays,4,executor_memory,640m
+D4_result_stays,4,executor_cores,2
+D4_result_stays,4,cores_max,8
+D4_result_stays,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D4_result_stays,4,broadcast_compress,true (default)
+D4_result_stays,4,shuffle_compress,true (default)
+D5_partitions,4,spark_version,3.5.6
+D5_partitions,4,java_version,17.0.15
+D5_partitions,4,java_vm,OpenJDK 64-Bit Server VM
+D5_partitions,4,os_arch,amd64
+D5_partitions,4,driver_available_processors,16
+D5_partitions,4,driver_max_heap_mib,1024
+D5_partitions,4,master,spark://master:7077
+D5_partitions,4,workers_requested,4
+D5_partitions,4,cores_per_worker,2
+D5_partitions,4,executors_registered,4
+D5_partitions,4,executor_memory,640m
+D5_partitions,4,executor_cores,2
+D5_partitions,4,cores_max,8
+D5_partitions,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D5_partitions,4,broadcast_compress,true (default)
+D5_partitions,4,shuffle_compress,true (default)
+D6_weak,1,spark_version,3.5.6
+D6_weak,1,java_version,17.0.15
+D6_weak,1,java_vm,OpenJDK 64-Bit Server VM
+D6_weak,1,os_arch,amd64
+D6_weak,1,driver_available_processors,16
+D6_weak,1,driver_max_heap_mib,1024
+D6_weak,1,master,spark://master:7077
+D6_weak,1,workers_requested,1
+D6_weak,1,cores_per_worker,1
+D6_weak,1,executors_registered,1
+D6_weak,1,executor_memory,640m
+D6_weak,1,executor_cores,1
+D6_weak,1,cores_max,1
+D6_weak,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D6_weak,1,broadcast_compress,true (default)
+D6_weak,1,shuffle_compress,true (default)
+D6_weak,2,spark_version,3.5.6
+D6_weak,2,java_version,17.0.15
+D6_weak,2,java_vm,OpenJDK 64-Bit Server VM
+D6_weak,2,os_arch,amd64
+D6_weak,2,driver_available_processors,16
+D6_weak,2,driver_max_heap_mib,1024
+D6_weak,2,master,spark://master:7077
+D6_weak,2,workers_requested,2
+D6_weak,2,cores_per_worker,1
+D6_weak,2,executors_registered,2
+D6_weak,2,executor_memory,640m
+D6_weak,2,executor_cores,1
+D6_weak,2,cores_max,2
+D6_weak,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D6_weak,2,broadcast_compress,true (default)
+D6_weak,2,shuffle_compress,true (default)
+D6_weak,4,spark_version,3.5.6
+D6_weak,4,java_version,17.0.15
+D6_weak,4,java_vm,OpenJDK 64-Bit Server VM
+D6_weak,4,os_arch,amd64
+D6_weak,4,driver_available_processors,16
+D6_weak,4,driver_max_heap_mib,1024
+D6_weak,4,master,spark://master:7077
+D6_weak,4,workers_requested,4
+D6_weak,4,cores_per_worker,1
+D6_weak,4,executors_registered,4
+D6_weak,4,executor_memory,640m
+D6_weak,4,executor_cores,1
+D6_weak,4,cores_max,4
+D6_weak,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D6_weak,4,broadcast_compress,true (default)
+D6_weak,4,shuffle_compress,true (default)
+D6_weak,4,spark_version,3.5.6
+D6_weak,4,java_version,17.0.15
+D6_weak,4,java_vm,OpenJDK 64-Bit Server VM
+D6_weak,4,os_arch,amd64
+D6_weak,4,driver_available_processors,16
+D6_weak,4,driver_max_heap_mib,1024
+D6_weak,4,master,spark://master:7077
+D6_weak,4,workers_requested,4
+D6_weak,4,cores_per_worker,2
+D6_weak,4,executors_registered,4
+D6_weak,4,executor_memory,640m
+D6_weak,4,executor_cores,2
+D6_weak,4,cores_max,8
+D6_weak,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D6_weak,4,broadcast_compress,true (default)
+D6_weak,4,shuffle_compress,true (default)
+D7_unroll4_kernel,1,spark_version,3.5.6
+D7_unroll4_kernel,1,java_version,17.0.15
+D7_unroll4_kernel,1,java_vm,OpenJDK 64-Bit Server VM
+D7_unroll4_kernel,1,os_arch,amd64
+D7_unroll4_kernel,1,driver_available_processors,16
+D7_unroll4_kernel,1,driver_max_heap_mib,1024
+D7_unroll4_kernel,1,master,spark://master:7077
+D7_unroll4_kernel,1,workers_requested,1
+D7_unroll4_kernel,1,cores_per_worker,1
+D7_unroll4_kernel,1,executors_registered,1
+D7_unroll4_kernel,1,executor_memory,640m
+D7_unroll4_kernel,1,executor_cores,1
+D7_unroll4_kernel,1,cores_max,1
+D7_unroll4_kernel,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D7_unroll4_kernel,1,broadcast_compress,true (default)
+D7_unroll4_kernel,1,shuffle_compress,true (default)
+D7_unroll4_kernel,2,spark_version,3.5.6
+D7_unroll4_kernel,2,java_version,17.0.15
+D7_unroll4_kernel,2,java_vm,OpenJDK 64-Bit Server VM
+D7_unroll4_kernel,2,os_arch,amd64
+D7_unroll4_kernel,2,driver_available_processors,16
+D7_unroll4_kernel,2,driver_max_heap_mib,1024
+D7_unroll4_kernel,2,master,spark://master:7077
+D7_unroll4_kernel,2,workers_requested,2
+D7_unroll4_kernel,2,cores_per_worker,1
+D7_unroll4_kernel,2,executors_registered,2
+D7_unroll4_kernel,2,executor_memory,640m
+D7_unroll4_kernel,2,executor_cores,1
+D7_unroll4_kernel,2,cores_max,2
+D7_unroll4_kernel,2,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D7_unroll4_kernel,2,broadcast_compress,true (default)
+D7_unroll4_kernel,2,shuffle_compress,true (default)
+D7_unroll4_kernel,4,spark_version,3.5.6
+D7_unroll4_kernel,4,java_version,17.0.15
+D7_unroll4_kernel,4,java_vm,OpenJDK 64-Bit Server VM
+D7_unroll4_kernel,4,os_arch,amd64
+D7_unroll4_kernel,4,driver_available_processors,16
+D7_unroll4_kernel,4,driver_max_heap_mib,1024
+D7_unroll4_kernel,4,master,spark://master:7077
+D7_unroll4_kernel,4,workers_requested,4
+D7_unroll4_kernel,4,cores_per_worker,1
+D7_unroll4_kernel,4,executors_registered,4
+D7_unroll4_kernel,4,executor_memory,640m
+D7_unroll4_kernel,4,executor_cores,1
+D7_unroll4_kernel,4,cores_max,4
+D7_unroll4_kernel,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D7_unroll4_kernel,4,broadcast_compress,true (default)
+D7_unroll4_kernel,4,shuffle_compress,true (default)
+D7_unroll4_kernel,4,spark_version,3.5.6
+D7_unroll4_kernel,4,java_version,17.0.15
+D7_unroll4_kernel,4,java_vm,OpenJDK 64-Bit Server VM
+D7_unroll4_kernel,4,os_arch,amd64
+D7_unroll4_kernel,4,driver_available_processors,16
+D7_unroll4_kernel,4,driver_max_heap_mib,1024
+D7_unroll4_kernel,4,master,spark://master:7077
+D7_unroll4_kernel,4,workers_requested,4
+D7_unroll4_kernel,4,cores_per_worker,2
+D7_unroll4_kernel,4,executors_registered,4
+D7_unroll4_kernel,4,executor_memory,640m
+D7_unroll4_kernel,4,executor_cores,2
+D7_unroll4_kernel,4,cores_max,8
+D7_unroll4_kernel,4,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D7_unroll4_kernel,4,broadcast_compress,true (default)
+D7_unroll4_kernel,4,shuffle_compress,true (default)

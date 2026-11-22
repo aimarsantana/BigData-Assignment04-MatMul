@@ -1,0 +1,17 @@
+experiment,workers,key,value
+D6_weak,1,spark_version,3.5.6
+D6_weak,1,java_version,17.0.15
+D6_weak,1,java_vm,OpenJDK 64-Bit Server VM
+D6_weak,1,os_arch,amd64
+D6_weak,1,driver_available_processors,16
+D6_weak,1,driver_max_heap_mib,1024
+D6_weak,1,master,spark://master:7077
+D6_weak,1,workers_requested,1
+D6_weak,1,cores_per_worker,1
+D6_weak,1,executors_registered,1
+D6_weak,1,executor_memory,640m
+D6_weak,1,executor_cores,1
+D6_weak,1,cores_max,1
+D6_weak,1,serializer,org.apache.spark.serializer.JavaSerializer (default)
+D6_weak,1,broadcast_compress,true (default)
+D6_weak,1,shuffle_compress,true (default)

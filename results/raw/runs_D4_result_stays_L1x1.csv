@@ -1,0 +1,4 @@
+experiment,method,kernel,workers,cores_per_worker,partitions,grid,threads,n,status,warmup,reps,load_s,ref_s,note
+D4_result_stays,rowblock-sum,blocked,1,1,4,4,0,1024,OK,2,7,0.152773773,0.451762801,
+D4_result_stays,rowblock-sum,blocked,1,1,4,4,0,2048,OK,2,5,0.43429507,3.894002744,
+D4_result_stays,rowblock-sum,blocked,1,1,4,4,0,3072,OK,2,5,0.962391983,11.140951092,

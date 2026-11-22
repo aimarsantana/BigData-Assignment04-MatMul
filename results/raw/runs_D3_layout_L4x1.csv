@@ -1,0 +1,4 @@
+experiment,method,kernel,workers,cores_per_worker,partitions,grid,threads,n,status,warmup,reps,load_s,ref_s,note
+D3_layout,rowblock,blocked,4,1,16,4,0,1024,OK,2,7,0.120304644,0.402469608,
+D3_layout,rowblock,blocked,4,1,16,4,0,2048,OK,2,5,0.45715084,3.687628022,
+D3_layout,rowblock,blocked,4,1,16,4,0,3072,OK,2,5,0.992014828,10.547554489,

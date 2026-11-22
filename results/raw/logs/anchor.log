@@ -1,0 +1,3 @@
+$ docker compose exec -T driver java -Xmx1g -cp /app/matmul4.jar:/opt/spark/jars/* bd.matmul4.Bench mode=local exp=ANCHOR_start method=seq kernel=blocked threads=1 n=1024 warmup=2 reps=5 data=/data out=/results/raw
+$ docker compose exec -T driver java -Xmx1g -cp /app/matmul4.jar:/opt/spark/jars/* bd.matmul4.Bench mode=local exp=ANCHOR_mid method=seq kernel=blocked threads=1 n=1024 warmup=2 reps=5 data=/data out=/results/raw
+$ docker compose exec -T driver java -Xmx1g -cp /app/matmul4.jar:/opt/spark/jars/* bd.matmul4.Bench mode=local exp=ANCHOR_end method=seq kernel=blocked threads=1 n=1024 warmup=2 reps=5 data=/data out=/results/raw
