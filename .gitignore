@@ -1,0 +1,6 @@
+target/
+data/inputs/*.bin
+__pycache__/
+*.pyc
+results/validation_out/
+results/raw/logs/*.log.tmp

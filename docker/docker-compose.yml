@@ -1,0 +1,45 @@
+# Local Spark standalone cluster: 1 master + N workers (docker compose up --scale worker=N) + 1 driver container.
+# Every worker container gets WORKER_CORES cores (default 1) for its single executor and a fixed memory; all containers run on the same
+# physical machine (Docker Desktop / WSL2 virtual machine), connected by one bridge network.
+name: bd-a4
+services:
+  master:
+    image: apache/spark:3.5.6-java17
+    user: root
+    hostname: master
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.master.Master", "--host", "master", "--port", "7077", "--webui-port", "8080"]
+    environment:
+      SPARK_DAEMON_MEMORY: "128m"
+    ports:
+      - "18080:8080"
+
+  worker:
+    image: apache/spark:3.5.6-java17
+    user: root
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker", "spark://master:7077",
+              "--cores", "${WORKER_CORES:-1}", "--memory", "${WORKER_MEM:-640m}", "--webui-port", "8081"]
+    environment:
+      SPARK_DAEMON_MEMORY: "64m"
+      SPARK_WORKER_DIR: "/tmp/spark-work"
+    depends_on:
+      - master
+
+  driver:
+    image: apache/spark:3.5.6-java17
+    user: root
+    hostname: driver
+    command: ["sleep", "infinity"]
+    volumes:
+      - type: bind
+        source: ${A4_DATA:-C:/bench_a4/data}
+        target: /data
+        read_only: true
+      - type: bind
+        source: ${A4_RESULTS:-../results}
+        target: /results
+      - type: bind
+        source: ../target
+        target: /app
+        read_only: true
+    depends_on:
+      - master
